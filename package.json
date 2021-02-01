@@ -6,7 +6,8 @@
   "author": "Preduh <pedro.lucas5860@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
