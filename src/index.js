@@ -11,4 +11,4 @@ app.use(cors())
 // Routes
 require('./routes/index')(app)
 
-app.listen(8081, () => console.log('Server is run'))
+app.listen(process.env.PORT, () => console.log('Server is run'))
